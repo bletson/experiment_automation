@@ -12,7 +12,7 @@ def connect_login(username, password, path_to_driver):
 
         username: str, username to log into the website
         password: str, password to log into the website
-        path_to_driver: str, path to directory that holds the geckodriver.exe driver. Can we downloaded here:
+        path_to_driver: str, path to directory that holds the geckodriver.exe driver. Can be downloaded here:
         https://github.com/mozilla/geckodriver/releases
 
         Returns a browser object to use in future automation
