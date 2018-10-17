@@ -2408,3 +2408,368 @@ console.warn: LoginRecipes: getRecipes: falling back to a synchronous message fo
 1539739340873	Marionette	INFO	Stopped listening on port 37483
 [Parent 24238, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 1539739405121	Marionette	INFO	Stopped listening on port 44095
+1539797063740	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CAMERO~1.CAR\\AppData\\Local\\Temp\\rust_mozprofile.poUjlqDkAgNb"
+1539797065644	Marionette	INFO	Listening on port 49800
+1539797065856	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539797065886	Marionette	DEBUG	[6442450945] Frame script loaded
+1539797065888	Marionette	DEBUG	[6442450945] Frame script registered
+1539797065905	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539797066733	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539797068313	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797068919	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797069711	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797070608	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 11312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11312, Chrome_ChildThread] WARNING: pipe [Child 17476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 22588, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539797081587	Marionette	INFO	Stopped listening on port 49800
+[GPU 7624, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539797111747	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CAMERO~1.CAR\\AppData\\Local\\Temp\\rust_mozprofile.xxQ7DpwABtFG"
+1539797113255	Marionette	INFO	Listening on port 49863
+1539797113359	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539797113403	Marionette	DEBUG	[6442450945] Frame script loaded
+1539797113404	Marionette	DEBUG	[6442450945] Frame script registered
+1539797113421	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539797113622	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539797115450	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797115474	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797116348	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797116857	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797121079	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797121428	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797122640	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797122938	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 22636, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23264, Chrome_ChildThread] WARNING: pipe error: 109[Parent 22636, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 22636, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21984, Chrome_ChildThread] WARNING: pipe error: 109: file 1539797129412	Marionette	INFO	Stopped listening on port 49863
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539797148623	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CAMERO~1.CAR\\AppData\\Local\\Temp\\rust_mozprofile.u7z4dhLotT6Y"
+1539797150128	Marionette	INFO	Listening on port 49902
+1539797150238	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539797150278	Marionette	DEBUG	[6442450945] Frame script loaded
+1539797150280	Marionette	DEBUG	[6442450945] Frame script registered
+1539797150303	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539797150488	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539797152174	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797152284	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797153148	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797154071	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797159202	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797159543	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797160674	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797160982	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 1436, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18320, Chrome_ChildThread] WARNING: pipe e[Parent 1436, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539797162882	Marionette	INFO	Stopped listening on port 49902
+[GPU 13920
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539797199340	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CAMERO~1.CAR\\AppData\\Local\\Temp\\rust_mozprofile.U9ukW9UVcuvo"
+1539797200942	Marionette	INFO	Listening on port 49939
+1539797200962	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539797201012	Marionette	DEBUG	[6442450945] Frame script loaded
+1539797201014	Marionette	DEBUG	[6442450945] Frame script registered
+1539797201045	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539797201239	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539797203458	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797203486	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797204359	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797204854	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797207957	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797208335	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797209371	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797209701	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 932, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5980, Chrome_ChildThread] WARNING: [Parent 932, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539797217501	Marionette	INFO	Stopped listening on port 49939
+[GPU 16184, Chrome_Chil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539797253387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CAMERO~1.CAR\\AppData\\Local\\Temp\\rust_mozprofile.yupIWescuAPd"
+1539797254879	Marionette	INFO	Listening on port 49979
+1539797255016	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539797255058	Marionette	DEBUG	[6442450945] Frame script loaded
+1539797255062	Marionette	DEBUG	[6442450945] Frame script registered
+1539797255084	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539797255293	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539797257048	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797257071	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797257957	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797258481	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797262707	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797263057	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797264139	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797264456	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 14540, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14540, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/bui[Child 6148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14540, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_c1539797269967	Marionette	INFO	Stopped listening on port 49979
+[GPU 540, Chrome_ChildThre
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539797298117	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CAMERO~1.CAR\\AppData\\Local\\Temp\\rust_mozprofile.kP10pZqWHdhC"
+1539797299626	Marionette	INFO	Listening on port 50019
+1539797299743	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539797299786	Marionette	DEBUG	[6442450945] Frame script loaded
+1539797299788	Marionette	DEBUG	[6442450945] Frame script registered
+1539797299814	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539797299997	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539797301695	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797301735	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797302634	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797303531	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797306064	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797306381	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797307363	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797307677	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 5156, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5156, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539797324224	Marionette	INFO	Stopped listening on port 50019
+[GPU 3884, Chrome_ChildThread] 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539797407074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CAMERO~1.CAR\\AppData\\Local\\Temp\\rust_mozprofile.h451Npsqmgaz"
+1539797408592	Marionette	INFO	Listening on port 50080
+1539797408689	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539797408725	Marionette	DEBUG	[6442450945] Frame script loaded
+1539797408728	Marionette	DEBUG	[6442450945] Frame script registered
+1539797408752	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539797408938	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539797410601	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797410624	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797411510	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797412400	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797414890	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797415215	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797416260	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797416582	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://cmsdb.darkcosmos.org
+[Parent 18676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 18676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chro[Child 12436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12436, Chrome_Child1539798436311	Marionette	INFO	Stopped listening on port 50080
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797499604	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797500275	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797502824	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797503165	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797504505	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797504872	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 3356, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3356, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539798437414	Marionette	INFO	Stopped listening on port 50127
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+loaded
+1539797549821	Marionette	DEBUG	[6442450945] Frame script registered
+1539797549853	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539797550049	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539797551649	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797551683	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797552566	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797553162	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797555664	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797555982	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797556956	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797557313	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 7172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13200, Chrome_ChildThread] WARNIN[Parent 7172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539798438565	Marionette	INFO	Stopped listening on port 50169
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+9797678320	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539797678364	Marionette	DEBUG	[6442450945] Frame script loaded
+1539797678370	Marionette	DEBUG	[6442450945] Frame script registered
+1539797678392	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539797678610	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539797680559	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797680580	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797681490	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797682083	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797684625	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797684988	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797686022	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797686351	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 15856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium[[Parent 8408, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, li1539797701198	Marionette	INFO	Stopped listening on port 50256
+[GPU 22032, Chrome_ChildThread] WARNING: pipe error: 109: fi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539797776855	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CAMERO~1.CAR\\AppData\\Local\\Temp\\rust_mozprofile.1s4iMUzNdwf8"
+1539797778392	Marionette	INFO	Listening on port 50310
+1539797778467	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539797778514	Marionette	DEBUG	[6442450945] Frame script loaded
+1539797778516	Marionette	DEBUG	[6442450945] Frame script registered
+1539797778532	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539797778719	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539797780417	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797780538	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797781359	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797782324	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797784806	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797785103	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797786139	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797786431	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 21496, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8640, Chrom[Child 17992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17992, Chrome_ChildThread] WARNING: pi[Parent 21496, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9208, Chrome_ChildThread] WARNIN1539797802484	Marionette	INFO	Stopped listening on port 50310
+[GPU 15788, Chrome_ChildThre
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539797837557	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CAMERO~1.CAR\\AppData\\Local\\Temp\\rust_mozprofile.L2LiQscRdRxT"
+1539797839049	Marionette	INFO	Listening on port 50353
+1539797839176	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539797839211	Marionette	DEBUG	[6442450945] Frame script loaded
+1539797839214	Marionette	DEBUG	[6442450945] Frame script registered
+1539797839234	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539797839420	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539797841159	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797841289	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797842123	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797843031	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797845519	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797845816	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797846819	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797847138	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 4684, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4684, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4684, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539797883450	Marionette	INFO	Stopped listening on port 50353
+[GPU 21204, Chrome_Chi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539797949930	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CAMERO~1.CAR\\AppData\\Local\\Temp\\rust_mozprofile.vU5re0mMYzOd"
+1539797951430	Marionette	INFO	Listening on port 50400
+1539797951542	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539797951588	Marionette	DEBUG	[6442450945] Frame script loaded
+1539797951589	Marionette	DEBUG	[6442450945] Frame script registered
+1539797951605	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539797951822	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539797954611	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797954940	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539797955253	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797955775	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797958455	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797958823	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797960236	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539797960588	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 22516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14716, Chrome_[Parent 22516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23604, Chrome_ChildThread] WARNING: pipe erro[r: 1Child 1809: file z:/bui920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18920,[Parent 22516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539798513328	Marionette	INFO	Stopped listening on port 50400
+[GPU 9144, Chrome_ChildThrea
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+no navigation has been detected
+1539798097903	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798098218	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798099366	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798099673	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 14240, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common[Child 20864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20864, Chrome[Parent 14240, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539798126725	Marionette	INFO	Stopped listening on port 50480
+[GPU 6420, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539798149501	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CAMERO~1.CAR\\AppData\\Local\\Temp\\rust_mozprofile.s1NBzDlwZYbm"
+1539798151034	Marionette	INFO	Listening on port 50520
+1539798151110	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539798151153	Marionette	DEBUG	[6442450945] Frame script loaded
+1539798151156	Marionette	DEBUG	[6442450945] Frame script registered
+1539798151181	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539798151379	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539798153067	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539798153100	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539798153942	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798154893	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798157498	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798157826	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798158863	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798159225	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798160540	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798439734	Marionette	INFO	Stopped listening on port 50520
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ile" "C:\\Users\\CAMERO~1.CAR\\AppData\\Local\\Temp\\rust_mozprofile.04S0NllWUUz8"
+1539798208201	Marionette	INFO	Listening on port 50563
+1539798208293	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539798208332	Marionette	DEBUG	[6442450945] Frame script loaded
+1539798208333	Marionette	DEBUG	[6442450945] Frame script registered
+1539798208361	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539798208566	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539798210713	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539798210753	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539798211358	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798211965	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798214532	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798214850	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798215848	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798216204	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798217509	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798218818	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 19016, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9816, Chrome[Parent 19016, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539798440652	Marionette	INFO	Stopped listening on port 50563
+[GPU 14888, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+0492	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539798332173	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cmsdb.darkcosmos.org/experiments/run/new
+1539798332408	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cmsdb.darkcosmos.org/experiments/run/new
+1539798333221	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798333745	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798336238	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798336523	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798337505	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798337835	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798339169	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798340480	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539798340713	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 17652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17652, Chrome_ChildThread] WARNING: pi[Parent 20932, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 20932, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[[Child 23368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 20932, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/bu1539798357151	Marionette	INFO	Stopped listening on port 50622
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
