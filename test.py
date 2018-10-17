@@ -49,6 +49,6 @@ def log_page_1(browser, led_list):
 
 
 if __name__ == '__main__':
-    browser = connect_login('bletson', 'baseball2046', '/Users/cameron.carverdata/geckodriver.exe')
+    browser = connect_login()
     time.sleep(2)
-    log_page_1(browser, led_list=['AA123', 'CJ03'])
+    log_page_1(browser, led_list=[])
