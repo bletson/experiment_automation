@@ -37,5 +37,5 @@ def log_page_1(browser):
 
 
 if __name__ == '__main__':
-    browser = connect_login('bletson', 'baseball2046')
+    browser = connect_login(username, password)
     log_new_experiment(browser)

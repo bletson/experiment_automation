@@ -42,4 +42,4 @@ def log_new_experiment(username, password):
         # Page 2
 
 if __name__ == '__main__':
-    log_new_experiment('bletson', 'baseball2046')
+    log_new_experiment(username, password)
