@@ -36,7 +36,7 @@ def log_page_1(browser, led_list):
         Function that logs information in the first page of the experiment.
 
         broswer: selenium driver object, browser object that controls the automation process
-        led_list: array of strings, list of LEDs used in the experiemnt
+        led_list: array of strings, list of length 8 that specifies the LED in each slot. If the slot is empty enter a 'x'. Example: ['AA123', 'CJ03', 'X', 'CJ02', 'CJ01', 'X', 'X', 'X']
 
         Returns a browser object to use in future tasks
         '''
@@ -54,32 +54,82 @@ def log_page_1(browser, led_list):
         WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div[9]/div/div/div[2]/a/div/div'))).click()
 
         # LEDs
-        for led in led_list:
-            browser.find_element_by_css_selector("div.v-select__selections:nth-child(2) > input:nth-child(1)").send_keys(led)
-            time.sleep(1)
-            browser.find_element_by_css_selector("div.v-select__selections:nth-child(2) > input:nth-child(1)").send_keys(Keys.RETURN)
-            browser.find_element_by_xpath('/html').click() # Click off screen to reset dropdown
+        for led in [x for x in led_list if x.lower() != 'x']: # Remove X's from led_list
+            led_loc = browser.find_element_by_xpath("/html/body/div/div[21]/main/div/div[1]/div[2]/div/div/div/div/div/div/div/div/div[2]/div[1]/div/div/div[2]/form/div[6]/div/div/div[2]/div[1]/div[1]/div[1]/input")
+            led_loc.send_keys(led)
+            led_loc.send_keys(Keys.TAB)
+            # browser.find_element_by_xpath('/html').click() # Click off screen to reset dropdown
 
         # Submit
         browser.find_element_by_css_selector('div.v-stepper__content:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > button:nth-child(1)').click()
         print('Page 1: Experiment Complete')
         return browser
 
-def log_page_2(browser):
+def log_page_2(browser, led_list):
 
         '''
         Function that logs information in the second page of the experiment.
 
         broswer: selenium driver object, browser object that controls the automation process
+        led_list: array of strings, list of length 8 that specifies the LED in each slot. If the slot is empty enter a 'x'. Example: ['AA123', 'CJ03', 'X', 'CJ02', 'CJ01', 'X', 'X', 'X']
 
         Returns a browser object to use in future tasks
         '''
+        # Rack
+        # rack_loc = WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div[33]/main/div/div[1]/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div/div[2]/div/div/div/form/div[1]/div/div/div[2]/div[1]/div[1]/input')))
+        rack_loc = '/html/body/div/div[33]/main/div/div[1]/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div/div[2]/div/div/div/form/div[1]/div/div/div[2]/div[1]/div[1]/input'
+        WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, rack_loc))).send_keys('R01')
+        WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div[21]/div/div/div[1]/a/div/div'))).click()
+
+
+        # TEC
+        tec_loc = '/html/body/div/div[33]/main/div/div[1]/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div/div[2]/div/div/div/form/div[2]/div/div/div[2]/div[1]/div[1]/input'
+        WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, tec_loc))).send_keys('TEC01')
+        WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div[20]/div/div/div[1]/a/div/div'))).click()
+
+
+        # Holder
+        holder_loc = '/html/body/div/div[33]/main/div/div[1]/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div/div[2]/div/div/div/form/div[3]/div/div/div[2]/div[1]/div[1]/input'
+        WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, holder_loc))).send_keys('H01')
+        WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div[19]/div/div/div[1]/a/div/div'))).click()
+
+
+        # Power Supply
+        power_supply_loc = '/html/body/div/div[33]/main/div/div[1]/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div/div[2]/div/div/div/form/div[4]/div/div/div[2]/div[1]/div[1]/input'
+        WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, power_supply_loc))).click()
+        WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div[18]/div/div/div[2]/a/div/div'))).click()
+
+        # LEDs
+
+        # # Slot dictionary:
+        slot_dict = {
+        1: ['80', 'LRed'],
+        2: ['81', 'LOrange'],
+        4: ['82', 'LYellow'],
+        5: ['85', 'LGreen'],
+        6: ['81', 'LBlue'],
+        7: ['81', 'LPink'],
+        8: ['81', 'LPurple']
+        }
+
+        led_list_alphabatized = sorted(led_list)
+        for led in led_list_alphabatized:
+            if led.lower() != 'x':
+                slot = led_list.index(led) + 1
+                channel, usb = slot_dict[slot][0], slot_dict[slot][1]
+
+                WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="led_967_holder_channel"]'))).send_keys(slot)
+                WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="led_967_supply_channel"]'))).send_keys(channel)
+                WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div[27]/main/div/div[1]/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div/div[2]/div/div/div/form/div[8]/div/div/div[2]/div[1]/div[1]/input'))).send_keys(usb)
+                browser.send_keys(KEYS.TAB)
+            else:
+                continue
 
 
 
 if __name__ == '__main__':
-    browser = connect_login()
-    time.sleep(2)
-    log_page_1(browser, led_list=[])
-    time.sleep(2)
-    log_page_2(browser)
+    browser = connect_login('bletson', 'baseball2046', 'geckodriver')
+    time.sleep(3)
+    browser = log_page_1(browser, led_list=['AA123', 'CJ03', 'X', 'CJ02', 'CJ01', 'X', 'X', 'X'])
+    time.sleep(5)
+    log_page_2(browser, led_list=['AA123', 'CJ03', 'X', 'CJ02', 'CJ01', 'X', 'X', 'X'])
