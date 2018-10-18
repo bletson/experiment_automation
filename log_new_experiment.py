@@ -112,24 +112,23 @@ def log_page_2(browser, led_list):
         8: ['81', 'LPurple']
         }
 
-        led_list_alphabatized = sorted(led_list)
-        for led in led_list_alphabatized:
-            if led.lower() != 'x':
-                slot = led_list.index(led) + 1
-                channel, usb = slot_dict[slot][0], slot_dict[slot][1]
-
-                WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="led_967_holder_channel"]'))).send_keys(slot)
-                WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="led_967_supply_channel"]'))).send_keys(channel)
-                WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div[27]/main/div/div[1]/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div/div[2]/div/div/div/form/div[8]/div/div/div[2]/div[1]/div[1]/input'))).send_keys(usb)
-                browser.send_keys(KEYS.TAB)
-            else:
-                continue
+        # led_list_alphabatized = sorted(led_list)
+        # for led in led_list_alphabatized:
+        #     if led.lower() != 'x':
+        #         slot = led_list.index(led) + 1
+        #         channel, usb = slot_dict[slot][0], slot_dict[slot][1]
+        #         WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div[33]/main/div/div[1]/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div/div[2]/div/div/div/form/div[6]/div/div/div[2]/div[1]'))).clear().send_keys(slot)
+        #         WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div[33]/main/div/div[1]/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div/div[2]/div/div/div/form/div[7]/div/div/div[2]/div[1]'))).clear().send_keys(channel)
+        #         WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div[33]/main/div/div[1]/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div/div[2]/div/div/div/form/div[8]/div/div/div[2]/div[1]/div[1]/input'))).send_keys(usb)
+        #         browser.send_keys(KEYS.TAB)
+        #     else:
+        #         continue
 
 
 
 if __name__ == '__main__':
-    browser = connect_login('bletson', 'baseball2046', 'geckodriver')
+    browser = connect_login(<username>, <passowrd>)
     time.sleep(3)
     browser = log_page_1(browser, led_list=['AA123', 'CJ03', 'X', 'CJ02', 'CJ01', 'X', 'X', 'X'])
-    time.sleep(5)
+    time.sleep(3)
     log_page_2(browser, led_list=['AA123', 'CJ03', 'X', 'CJ02', 'CJ01', 'X', 'X', 'X'])
